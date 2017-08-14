@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840E60AE1F420AD7002EC2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60AD1F420AD7002EC2CA /* AppDelegate.swift */; };
+		840E60B01F420AD7002EC2CA /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60AF1F420AD7002EC2CA /* FormularioViewController.swift */; };
+		840E60B31F420AD7002EC2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E60B11F420AD7002EC2CA /* Main.storyboard */; };
+		840E60B51F420AD7002EC2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E60B41F420AD7002EC2CA /* Assets.xcassets */; };
+		840E60B81F420AD7002EC2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E60B61F420AD7002EC2CA /* LaunchScreen.storyboard */; };
+		840E60C11F420B48002EC2CA /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C01F420B48002EC2CA /* Viagem.swift */; };
+		840E60C61F420D9B002EC2CA /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C51F420D9B002EC2CA /* Cadastro.swift */; };
+		840E60C81F421EB0002EC2CA /* ListarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840E60AA1F420AD7002EC2CA /* Viagem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viagem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E60AD1F420AD7002EC2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840E60AF1F420AD7002EC2CA /* FormularioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
+		840E60B21F420AD7002EC2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840E60B41F420AD7002EC2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840E60B71F420AD7002EC2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840E60B91F420AD7002EC2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E60C01F420B48002EC2CA /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		840E60C51F420D9B002EC2CA /* Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListarTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840E60A71F420AD7002EC2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840E60A11F420AD7002EC2CA = {
+			isa = PBXGroup;
+			children = (
+				840E60AC1F420AD7002EC2CA /* Viagem */,
+				840E60AB1F420AD7002EC2CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840E60AB1F420AD7002EC2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840E60AA1F420AD7002EC2CA /* Viagem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840E60AC1F420AD7002EC2CA /* Viagem */ = {
+			isa = PBXGroup;
+			children = (
+				840E60C31F420D1C002EC2CA /* Controller */,
+				840E60C21F420D01002EC2CA /* View */,
+				840E60BF1F420B0B002EC2CA /* Model */,
+				840E60AD1F420AD7002EC2CA /* AppDelegate.swift */,
+				840E60B41F420AD7002EC2CA /* Assets.xcassets */,
+				840E60B61F420AD7002EC2CA /* LaunchScreen.storyboard */,
+				840E60B91F420AD7002EC2CA /* Info.plist */,
+			);
+			path = Viagem;
+			sourceTree = "<group>";
+		};
+		840E60BF1F420B0B002EC2CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840E60C01F420B48002EC2CA /* Viagem.swift */,
+				840E60C51F420D9B002EC2CA /* Cadastro.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		840E60C21F420D01002EC2CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				840E60B11F420AD7002EC2CA /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		840E60C31F420D1C002EC2CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840E60AF1F420AD7002EC2CA /* FormularioViewController.swift */,
+				840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840E60A91F420AD7002EC2CA /* Viagem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E60BC1F420AD7002EC2CA /* Build configuration list for PBXNativeTarget "Viagem" */;
+			buildPhases = (
+				840E60A61F420AD7002EC2CA /* Sources */,
+				840E60A71F420AD7002EC2CA /* Frameworks */,
+				840E60A81F420AD7002EC2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viagem;
+			productName = Viagem;
+			productReference = 840E60AA1F420AD7002EC2CA /* Viagem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840E60A21F420AD7002EC2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					840E60A91F420AD7002EC2CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 840E60A51F420AD7002EC2CA /* Build configuration list for PBXProject "Viagem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840E60A11F420AD7002EC2CA;
+			productRefGroup = 840E60AB1F420AD7002EC2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840E60A91F420AD7002EC2CA /* Viagem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840E60A81F420AD7002EC2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E60B81F420AD7002EC2CA /* LaunchScreen.storyboard in Resources */,
+				840E60B51F420AD7002EC2CA /* Assets.xcassets in Resources */,
+				840E60B31F420AD7002EC2CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840E60A61F420AD7002EC2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E60B01F420AD7002EC2CA /* FormularioViewController.swift in Sources */,
+				840E60C11F420B48002EC2CA /* Viagem.swift in Sources */,
+				840E60C61F420D9B002EC2CA /* Cadastro.swift in Sources */,
+				840E60C81F421EB0002EC2CA /* ListarTableViewController.swift in Sources */,
+				840E60AE1F420AD7002EC2CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840E60B11F420AD7002EC2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840E60B21F420AD7002EC2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840E60B61F420AD7002EC2CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840E60B71F420AD7002EC2CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840E60BA1F420AD7002EC2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840E60BB1F420AD7002EC2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840E60BD1F420AD7002EC2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Viagem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.Viagem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		840E60BE1F420AD7002EC2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Viagem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.Viagem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840E60A51F420AD7002EC2CA /* Build configuration list for PBXProject "Viagem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E60BA1F420AD7002EC2CA /* Debug */,
+				840E60BB1F420AD7002EC2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E60BC1F420AD7002EC2CA /* Build configuration list for PBXNativeTarget "Viagem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E60BD1F420AD7002EC2CA /* Debug */,
+				840E60BE1F420AD7002EC2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840E60A21F420AD7002EC2CA /* Project object */;
+}
