@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     Button browser,discar,ligar,enviarEmail,sms,compartilharTexto,visualizarPonto,visualizarRota,videoYoutube,foto;
@@ -132,7 +134,9 @@ public class MainActivity extends AppCompatActivity {
                 String origem = "7.1181783,-34.8730402";
                 String destino = "-7.1619359,-34.8327554";
                 String patch = "http://maps.google.com/maps?f=&addr=%s+&addr=%s";
-                Uri uri = Uri.parse(String.format(patch,origem,destino));
+                final String ulrRoute = "https://maps.google.com?saddr=%s&daddr=%s";
+//                Uri uri = Uri.parse(String.format(patch,origem,destino));
+                Uri uri = Uri.parse(String.format(Locale.getDefault(),ulrRoute,origem,destino));
                 Intent it = new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(it);
 

@@ -63,7 +63,7 @@ public class GastoAdapter extends BaseAdapter {
         if(g.getFoto()!=null)
             ivFoto.setImageDrawable(g.getFoto());
 
-        layout.setMinimumHeight(300);
+        layout.setMinimumHeight(100);
 
         if(position % 2 == 0 ){
             layout.setBackgroundColor(Color.rgb(220,220,220));

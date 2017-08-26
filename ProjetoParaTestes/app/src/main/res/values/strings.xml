@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjetoParaTestes</string>
+    <string name="edit_msg">Digite algo aqui!</string>
+    <string name="botao_enviar">Enviar</string>
+</resources>

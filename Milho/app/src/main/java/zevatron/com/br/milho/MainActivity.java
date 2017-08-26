@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private Cadastro cadastro;
     private ListView lvGastos;
     private TextView tvListaVazia;
-    private GastoAdapter adapter;
+//    private GastoAdapter adapter;
     private List<Gasto> listaGastos;
 
     public MainActivity() {
