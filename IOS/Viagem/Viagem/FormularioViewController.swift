@@ -33,7 +33,7 @@ class FormularioViewController: UIViewController {
         
         self.viagem = Viagem(destino: destino!, convidados: quantidade, orcamento: valor!, altaTemporada: temporada)
         
-        print("\(self.viagem)")
+        //print("\(self.viagem)")
         self.cadastro.add(nova: self.viagem)
         
         self.navigationController?.popViewController(animated: true)
