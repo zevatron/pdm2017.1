@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IFPBHorarios</string>
+    <string name="title_activity_periodo">PeriodoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_periodos">PeriodosActivity</string>
 </resources>
