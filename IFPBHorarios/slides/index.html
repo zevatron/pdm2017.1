@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="imagens/logo.png">
+					<h2>IFPB Horarios</h2>
+					
+				</section>
+				<section>
+					<p>O aplicativo permite a listagem do quadro de horarios do IFPB Campus João Pessoa off-line</p>
+				</section>
+				
+				<section>
+					<p>O aplicativo exibe a listagem de todos os cursos, permitindo ao usuário selecionar o desejado.</p>
+				</section>
+				
+				<section>
+					<section>
+						<p>Recursos avançados</p>
+						<small class="fragment">A biblioteca Active Android funciona como um ORM para manipulação de dados em SQLite</small>
+						<img class="fragment" src="imagens/0.png">
+						
+					</section>
+					<section>
+						<p>Ajustes na aplicação</p>
+						<small class="fragment">O Manifest da aplicação deve ser alterado, afim de permitir a manipulação de dados de forma semelhante a JPA</small>
+						<img class="fragment" src="imagens/1.png">
+					</section>
+					<section>
+						<p>Modelagem</p>
+						<small class="fragment">Muito semelhante a JPA é necessário incluir notações na classe e em seus atributos, além de extender a clase Model da biblioteca </small>
+						<img class="fragment" src="imagens/2.png">
+					</section>
+					<section>
+					<small class="fragment">Ainda na classe modelo é possível adicionar os métodos que retornam os dados com a Query desejada. </small>
+						<img class="fragment" src="imagens/3.png" width="100%" height="auto">
+					</section>
+										
+				</section>
+				
+				
+				
+				<section id="bibliografia">
+					<h3>Bibliografia</h3>
+					<small>
+						<ol>
+							<li><a href="https://www.activeandroid.com">Active Android ORM</a></li>
+						</ol>
+					</small>
+					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
