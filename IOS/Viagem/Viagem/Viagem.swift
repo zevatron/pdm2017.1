@@ -25,7 +25,7 @@ class Viagem: NSObject{
     }
     
     override var description: String{
-        return self.destino
+        return "\(self.destino!) - R$ \(self.porPessoa())"
     }
     
     func porPessoa() -> Float{

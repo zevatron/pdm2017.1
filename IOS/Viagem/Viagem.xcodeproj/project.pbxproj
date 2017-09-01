@@ -15,6 +15,7 @@
 		840E60C11F420B48002EC2CA /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C01F420B48002EC2CA /* Viagem.swift */; };
 		840E60C61F420D9B002EC2CA /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C51F420D9B002EC2CA /* Cadastro.swift */; };
 		840E60C81F421EB0002EC2CA /* ListarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */; };
+		E966CFBC1F508A910003380F /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966CFBB1F508A910003380F /* SobreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		840E60C01F420B48002EC2CA /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		840E60C51F420D9B002EC2CA /* Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
 		840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListarTableViewController.swift; sourceTree = "<group>"; };
+		E966CFBB1F508A910003380F /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				840E60AF1F420AD7002EC2CA /* FormularioViewController.swift */,
 				840E60C71F421EB0002EC2CA /* ListarTableViewController.swift */,
+				E966CFBB1F508A910003380F /* SobreViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E966CFBC1F508A910003380F /* SobreViewController.swift in Sources */,
 				840E60B01F420AD7002EC2CA /* FormularioViewController.swift in Sources */,
 				840E60C11F420B48002EC2CA /* Viagem.swift in Sources */,
 				840E60C61F420D9B002EC2CA /* Cadastro.swift in Sources */,
@@ -333,6 +337,7 @@
 				840E60BE1F420AD7002EC2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,4 +28,21 @@ class Cadastro: NSObject{
         return self.lista.count
     }
     
+    func total() -> Float{
+        var acumulador:Float = 0
+        for v in self.lista{
+            acumulador += v.orcamento
+        }
+        return acumulador
+    }
+    func del(index:Int){
+        self.lista.remove(at: index)
+    }
+    
+    func move(origem:Int, destino:Int){
+        let aux = self.lista[origem]
+        self.lista[origem] = self.lista[destino]
+        self.lista[destino] = aux
+    }
+    
 }
